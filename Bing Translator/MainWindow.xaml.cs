@@ -35,6 +35,12 @@ namespace Bing_Translator
             Translator.Translate("Hello World", Languages.en, Languages.ar);
             Translator.Translate("Hello World", Languages.en, Languages.ar);
             Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
         }
     }
 }
