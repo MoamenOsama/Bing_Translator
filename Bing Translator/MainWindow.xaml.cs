@@ -21,6 +21,11 @@ namespace Bing_Translator
     {
         public MainWindow()
         {
+
+
+
+
+            //Helloooooooooooooo
             InitializeComponent();
 
             Translator.SetAuthorization("POSTranslator", "WAQCD/pJKigQ7GcS1fdzFIihTDrHIOkAWf+b8+fT0VY=", true);
@@ -36,11 +41,6 @@ namespace Bing_Translator
             string ss = Translator.Translate("Hello", Languages.en, Languages.ar);
 
             string sss = Translator.Translate("Hello World", Languages.en, Languages.ar);
-
-
-
-
-            //Helloooooooooooooo
         }
     }
 }
