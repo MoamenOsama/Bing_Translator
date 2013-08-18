@@ -36,6 +36,11 @@ namespace Bing_Translator
             string ss = Translator.Translate("Hello", Languages.en, Languages.ar);
 
             string sss = Translator.Translate("Hello World", Languages.en, Languages.ar);
+
+
+
+
+            //Helloooooooooooooo
         }
     }
 }
