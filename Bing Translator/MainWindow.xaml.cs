@@ -25,16 +25,17 @@ namespace Bing_Translator
 
             Translator.SetAuthorization("POSTranslator", "WAQCD/pJKigQ7GcS1fdzFIihTDrHIOkAWf+b8+fT0VY=", true);
 
+
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+            Translator.Translate("Hello World", Languages.en, Languages.ar);
+
             string ss = Translator.Translate("Hello", Languages.en, Languages.ar);
 
             string sss = Translator.Translate("Hello World", Languages.en, Languages.ar);
-
-            Translator.Translate("Hello World", Languages.en, Languages.ar);
-            Translator.Translate("Hello World", Languages.en, Languages.ar);
-            Translator.Translate("Hello World", Languages.en, Languages.ar);
-            Translator.Translate("Hello World", Languages.en, Languages.ar);
-            Translator.Translate("Hello World", Languages.en, Languages.ar);
-            Translator.Translate("Hello World", Languages.en, Languages.ar);
         }
     }
 }
